@@ -1,0 +1,62 @@
+@media all and (max-width: 1400px){
+    
+}
+@media all and (max-width: 1200px){
+    header .logo {
+        position: static;
+        margin: 0 0 10px;
+    }
+    .logo img {
+        width: 175px;
+    }
+    .menu-icon {
+        display: block;
+        position: absolute;
+        top: 2rem;
+        right: 2rem;
+    }
+    .menu-icon i {
+        color: var(--mediumblue);
+    }
+    header .top, .navigation {
+        display: none;
+    }
+    .container {
+        padding: 0;
+    }
+    .banner-text {
+        padding-top: 2rem;
+        max-width: none;
+    }
+    .banner-area-text {
+        position: relative;
+        padding: 0 1rem;
+    }
+    .banner-text h2{
+        font-size: 3.2rem;
+        text-align: center;
+    }
+    .banner-text p{
+  
+   padding-bottom: 2rem;
+   text-align: center;
+    }
+    .caro-buttons {
+    display: flex;
+    justify-content: center;
+    margin: 2rem 0;
+    position: relative;
+    max-width: none;
+    }
+}
+
+@media only screen and (max-width : 992px) {
+
+   
+}
+@media all and (max-width: 768px){
+    
+}
+@media all and (max-width: 576px){
+    
+}
