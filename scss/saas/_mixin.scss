@@ -1,0 +1,10 @@
+@mixin box ($bg, $border-bg){
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: $bg;
+    border: 10px solid $border-bg;
+}

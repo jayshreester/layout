@@ -1,0 +1,46 @@
+@import "var";
+@import "mixin";
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+}
+
+
+header{
+    @include box($darkblue, $mediumblue);   
+
+    h1 {
+        font-size: 5rem + 5rem;
+        color: red;
+    }
+    p {
+        font-size: $fontsize;
+        color: blue;
+    }
+    .text {
+        color: green;
+        font-size: 3rem;
+        &:hover {
+            background-color: yellow;
+        }
+    }
+    @media (max-width: 767px) {
+        //desktop styles
+       display: none;
+      }
+}
+
+main {
+    @include box(beige, purple);   
+
+    
+    @extend header;
+    h1 {
+        color: black;
+    }
+
+}
